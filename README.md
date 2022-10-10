@@ -61,5 +61,6 @@ instalar npm
 ```
 
 3. Ejecutar Expo
-expo start
+
 ```
+expo start
