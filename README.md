@@ -1,66 +1,65 @@
 # Doctor App - React Native
+Proyecto de aplicación móvil creado con Expo, React Native, Firebase y algunas bibliotecas maravillosas para la aplicación React Native.
 
-Mobile application project created with Expo, React Native, Firebase and some wonderful libraries for React Native application.
+## Tabla de contenido
 
-## Table of Contents
+- [Información general](#información-general)
+- [Características principales](#características-principales)
+- [Tecnologías](#tecnologías)
+- [Inicio rápido] (#inicio rápido)
 
-- [General Info](#general-info)
-- [Main Features](#main-features)
-- [Technologies](#technologies)
-- [Quick Start](#quick-start)
+## Información general
 
-## General Info
+Esta aplicación Doctor Mobile permite a los clientes crear su cuenta para el control de salud y reservar una cita con los médicos que deseen.
 
-This Doctor Mobile application allows customers to create their account for health checking and book an appointment with their desired doctors.
+### Pantalla de inicio
 
-### Home Screen
-
-<p flexDirection="row">
+<p direcciónflex="fila">
 <img src="./components/assets/HomeScreenProduct.png" width="300" height="600" />
-<img src="./components/assets/FilterScreenProduct.png" width="300" height="600" />
+<img src="./componentes/activos/FilterScreenProduct.png" width="300" height="600" />
 </p>
 
-### Booking Screen
+### Pantalla de reserva
 
-<p flexDirection="row">
+<p direcciónflex="fila">
 <img src="./components/assets/BookAppointmentProduct.png" width="300" height="600" />
-<img src="./components/assets/DoctorInfo.png" width="300" height="600" />
+<img src="./componentes/activos/DoctorInfo.png" width="300" height="600" />
 </p>
 
-## Main Features
+## Principales características
 
-- Complex navigation (Tab, Stack, TabView)
-- Connect to Firebase (Authentication)
-- Sign up credentials and login, sign out
-- Get current date and date format
-- Search doctor, filter by First Name and Last Name
-- Book an appointment with the doctor by choosing time and select one meeting option. There are 3 options for meeting with the doctor: Audio Chat, Video Conference, Contact Meeting.
-- Check the booking in the Appointment Screen
+- Navegación compleja (Tab, Stack, TabView)
+- Conectarse a Firebase (Autenticación)
+- Registrar credenciales e iniciar sesión, cerrar sesión
+- Obtenga la fecha actual y el formato de fecha
+- Buscar médico, filtrar por Nombre y Apellido
+- Reserve una cita con el médico eligiendo la hora y seleccione una opción de reunión. Hay 3 opciones para reunirse con el médico: chat de audio, videoconferencia, reunión de contacto.
+- Consultar la reserva en la Pantalla de Citas
 
-## Technologies
+## Tecnologías
 
-- Expo
-- React Native
-- React Native Elements
-- React Native Vector Icons
-- React Navigation V6
-- React Native Community - datetimepicker V4
-- Date-fns format
-- Radio Button React Native V1
-- Firebase Authentication V8
-- Firebase Realtime Database
+- Exposición
+- Reaccionar nativo
+- Reaccionar elementos nativos
+- Reaccionar iconos vectoriales nativos
+- Reaccionar Navegación V6
+- Comunidad nativa React - datetimepicker V4
+- Formato de fecha-fns
+- Botón de opción Reaccionar nativo V1
+- Autenticación de Firebase V8
+- Base de datos en tiempo real de Firebase
 
-## Quick Start
+## Inicio rápido
 
-Here are some steps to run this project:
+Aquí hay algunos pasos para ejecutar este proyecto:
 
 
-2. Download node_modules
+2. Descarga node_modules
 
 ```
-npm install
+instalar npm
 ```
 
-3. Run Expo
-
+3. Ejecutar Expo
+expo start
 ```
